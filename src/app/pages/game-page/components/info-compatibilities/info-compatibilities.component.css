@@ -1,0 +1,76 @@
+.info-compatibilities__container {
+	margin-top: 30px;
+	padding: 0 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.info-compatibilities__compatibility {
+	width: 100%;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.compatibility__icon {
+	margin-right: 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.compatibility__icon svg {
+	height: 20px;
+	width: 20px;
+}
+
+.compatibility__nome {
+	font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+	.info-compatibilities__container {
+		margin: 0 25px;
+		padding: 0 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.info-compatibilities__container {
+		margin: 0 45px;
+		padding: 0 50px;
+	}
+
+	.info-compatibilities__compatibility {
+		width: inherit;
+	}
+
+	.compatibility__icon svg {
+		height: 25px;
+		width: 25px;
+	}
+
+	.compatibility__nome {
+		font-size: 0.9rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.info-compatibilities__container {
+		padding: 0 50px 50px;
+	}
+}

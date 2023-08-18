@@ -1,0 +1,18 @@
+<div class="preview__container">
+	<div class="preview__items">
+		<div [ngClass]="preview" *ngFor="let game of games">
+			<app-game-card
+				[isEnableBody]="isEnableBody"
+				[game]="game"
+			></app-game-card>
+		</div>
+	</div>
+	<ng-template [ngIf]="showButton">
+		<div class="preview__bottom">
+			<app-button
+				class="preview__button"
+				(isShowItens)="showItens($event)"
+			></app-button>
+		</div>
+	</ng-template>
+</div>

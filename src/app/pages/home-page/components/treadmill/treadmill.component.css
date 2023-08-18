@@ -1,0 +1,138 @@
+.treadmill__container {
+	padding: 30px 10px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.treadmill__top {
+	padding: 8px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.treadmill__title h1 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.treadmill__link {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.treadmill__link .link__icon {
+	padding: 2px;
+	margin-right: 10px;
+	width: 34px;
+	height: 34px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #000;
+	border-radius: 50%;
+}
+
+.treadmill__link .link__icon:hover {
+	background-color: #f2f2f2;
+	color: #000;
+}
+
+.treadmill__link .link__icon:active,
+.treadmill__link .link__icon:focus {
+	background-color: #004c8a;
+	color: white;
+	border: 2px solid white;
+	-webkit-box-shadow: 0 0 0 2px #004c8a;
+	box-shadow: 0 0 0 2px #004c8a;
+}
+
+.treadmill__link svg {
+	width: 100%;
+}
+
+.treadmill__link .link__text {
+	display: none;
+}
+
+@media (min-width: 576px) {
+	.treadmill__container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.treadmill__title h1 {
+		font-size: 1.4rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.treadmill__container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (min-width: 992px) {
+	.treadmill__container {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+
+	.treadmill__link .link__icon {
+		display: none;
+	}
+
+	.treadmill__link .link__text {
+		display: block;
+	}
+}
+
+@media (min-width: 1200px) {
+	.treadmill__container {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.treadmill__title h1 {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	.treadmill__container {
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+	.treadmill__title h1 {
+		font-size: 2rem;
+	}
+}
