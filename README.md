@@ -83,19 +83,3 @@ Technologies and tools that were used in the development of the project:
 - Inputs & Outputs
 
 ---
-
-## 👨‍💻 Author
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://jonasmzsouza.github.io/">
-         <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61324433?v=4" width="100px;" alt=""/>
-         <br />
-         <sub><b>Jonas Souza</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
- 
-[![Github Badge](https://img.shields.io/badge/-jonasmzsouza-3e4957?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jonasmzsouza)](https://github.com/jonasmzsouza) [![Linkedin Badge](https://img.shields.io/badge/-jonasmzsouza-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonasmzsouza/)](https://www.linkedin.com/in/jonasmzsouza/)
